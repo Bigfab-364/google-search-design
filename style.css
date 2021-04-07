@@ -1,0 +1,136 @@
+body, p{
+    padding: 0;
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin-left: auto;
+    padding-top: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 23px;
+}
+
+main {
+    width: 50%;
+    margin: 170px auto;
+    text-align: center;
+}
+input {
+    width: 80%;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid gray;
+
+}
+
+.btn-holder {
+    margin-top: 30px;
+
+
+}
+
+.btn-holder button{
+    padding: 10px;
+    border: 1px solid #4d90fe;
+    color: #3c4043;
+    margin-right: 10px;
+    background-color: rgb(248, 249, 250);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-holder button:hover {
+    border: 1px solid grey;
+}
+
+.google_offer {
+    margin-top: 20px;
+    color: #222;
+    font-size: small;
+}
+
+.google_offer a {
+    text-decoration: none;
+    color: #1a0dab;
+    margin-right: 10px;
+
+}
+.google_offer a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-top {
+    padding: 10px;
+    color: rgba(0,0,0,.54);
+}
+.footer-bottom {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  #dadce0;
+}
+
+.bottom-left a{
+    margin-right: 20px;
+    color: #70757a;
+    text-decoration: none;
+}
+.bottom-left a:hover {
+    text-decoration: underline;
+}
+
+
+.bottom-right a{
+    margin-left: 20px;
+    color: #70757a;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.bottom-right a:hover {
+    text-decoration: underline;
+}
+
+
+.middle-item {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 170px;
+}
+
+.middle-item a{
+    color: #70757a;
+    text-decoration: none;
+}
+.middle-item a:hover {
+    text-decoration: underline;
+}
+
+
+.middle-item img {
+    height: 15px;
+    margin-right: 7px;
+}
